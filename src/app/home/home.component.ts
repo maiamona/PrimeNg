@@ -12,9 +12,12 @@ export class HomeComponent implements OnInit {
   
   constructor(private usuarioService: UsuarioService, public usuario: Usuario ) { }
   title = '';
+  value: number = 0;
+  mona:number = 0;
   ngOnInit() {
     this.usuario = this.usuarioService.getUsuario();
-this.title = 'Maiamona'
+    this.title = 'Maiamona';
+    
   }
 
 }
