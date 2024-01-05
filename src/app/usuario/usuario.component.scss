@@ -1,0 +1,35 @@
+.p-grid{
+    display: flex;
+}
+
+.p-col-4 {
+    box-sizing: border-box;
+    padding: 20px;
+    flex: 1; 
+    margin-bottom: 5px;
+    max-width: 50%;
+}
+
+.red{
+    background: red;
+    border: red ;
+    color: white;
+}
+
+.red:hover{
+    background: red;
+    border: red ;
+    color: white; 
+}
+
+.green{
+    background: green;
+    border: green;
+    color: white;  
+}
+
+.green:hover{
+    background: green;
+    border: green;
+    color: white;  
+}

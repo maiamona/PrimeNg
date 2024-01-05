@@ -1,0 +1,19 @@
+<div class="p-grid">
+    <div class="p-col-4 p-md-6">
+        <div class="p-inputgroup">
+            <span class="p-inputgroup-addon"><i class="pi pi-user"></i></span>
+            <input type="text" [(ngModel)]="usuario.nome" pInputText placeholder="Nome">
+        </div>
+    </div>
+    <div class="p-col-4 p-md-6">
+        <div class="p-inputgroup">
+            <span class="p-inputgroup-addon"><i class="pi pi-star"></i></span>
+            <input type="email" [(ngModel)]="usuario.email" pInputText placeholder="Email">
+        </div>
+    </div>
+    <div class="p-col-4 p-md-6">
+    <div>
+        <button pButton (click)="salvar()" label="Salvar"></button>
+    </div>
+</div>
+</div>
